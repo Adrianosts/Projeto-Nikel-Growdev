@@ -162,9 +162,6 @@ function getTotal() {
         document.getElementById("total").innerHTML = `R$ ${total.toFixed(2)}`;
     })
 
-    if(total < 0) {
-        confirm("Atenção. Seu saldo após cadastrar essa despesa será negativo, deseja continuar ?"); 
-    }
 }
 
 function saveData(data) {
